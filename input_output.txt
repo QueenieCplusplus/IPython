@@ -1,0 +1,43 @@
+$>print(Out[2])
+    0.9092974268256817
+
+$> Out[2]*2
+    Out[11]: 1.8185948536513634
+
+$> Out[2]-Out[3]
+    Out[12]: 1.325444263372824
+
+$> print(_)
+    1.325444263372824
+
+$> print(__)
+    1.8185948536513634
+
+$> print(___)
+    -0.4161468365471424
+
+$> %history
+    import math
+    math.sin(2)
+    math.cos(2)
+    print(In)
+    Out
+    print(Out)
+    print(In[0])
+    print(In[1])
+    print(Out[0])
+    print(Out[2])
+    Out[2]*2
+    Out[2]-Out[3]
+    print(_)
+    print(__)
+    print(___)
+    %history
+
+$> %history -n 0-5
+   0:
+   1: import math
+   2: math.sin(2)
+   3: math.cos(2)
+   4: print(In)
+   5: Out
